@@ -1,11 +1,12 @@
-import express from 'express';
 import request from 'supertest';
+import app from '../index.js';
 
-const app = express();
-
-test('traer lista de paths', async () => {
-    const res = await request(app).get('/route');
-
-    expect(res.statusCode).toBe(200);
-    expect(res.body).toEqual({});
+test('test the route', done => {
+    request(app)
+        .get('/route')
+        .then(response => {
+            expect(response.statusCode).toBe(200);
+            expect(response.body).toEqual([{"routeName": "Route 1"}, {"routeName": "Route 2"}, {"routeName": "Route 3"}]);
+            done();
+        });
 });
