@@ -1,0 +1,23 @@
+{
+  "name": "baliza-api",
+  "version": "1.0.0",
+  "description": "Baliza is an application to track habits, so you can see you progress based in colors.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/los-tres-amigos/baliza-api.git"
+  },
+  "keywords": [
+    "tracker",
+    "habits"
+  ],
+  "author": "Los Tres Amigos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/los-tres-amigos/baliza-api/issues"
+  },
+  "homepage": "https://github.com/los-tres-amigos/baliza-api#readme"
+}
