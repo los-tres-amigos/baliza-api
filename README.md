@@ -7,3 +7,4 @@ To get this Node server running locally follow the next steps:
 
 - Clone this repo to your computer.
 - run the command `npm install` to install all the required dependencies.
+- run the command `npm run dev` to start the server up.
