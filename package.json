@@ -4,6 +4,7 @@
   "description": "Baliza is an application to track habits, so you can see your progress based in colors.",
   "main": "index.js",
   "scripts": {
+    "dev": "NODE_ENV=development node index.js",
     "test": "NODE_ENV=test NODE_OPTIONS=--experimental-vm-modules jest ./tests/*.js"
   },
   "repository": {
